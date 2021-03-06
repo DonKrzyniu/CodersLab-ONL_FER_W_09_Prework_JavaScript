@@ -4,6 +4,15 @@ console.log(users[1]);
 console.log(users[4]);
 console.log(users.length);
 
+const guests =  [];
+    guests[0] = ["Chauncey"];
+    guests[1] = ["Ling"];
+    guests[2] = ["Ona"];
+    guests[3] = ["Nicole"];
+    guests[4] = ["Michaele"];
 
-// 2 część tego zadania jest nie do rozwiązania gdyż nie działa żadne rozwiązanie z materiałów pomocniczych.
-// By nie marnować czasu idę do następnych zadań i być może do tego zadania powrócę.
+console.log(guests[0][0]);
+console.log(guests[2][0]);
+console.log(guests.length);
+
+// OK. Zadanie po konsultacji poprawione :-)
