@@ -21,7 +21,5 @@ const referenceColor = {
     green: 50,
 };
 
-const new_car = car;
-new_car.color = referenceColor;
 
-//Treść zadania zbyt skomplikowana i jak dla mnie niejasna. Więcej już z siebie nie wykrzeszę.
+car.color = referenceColor;
