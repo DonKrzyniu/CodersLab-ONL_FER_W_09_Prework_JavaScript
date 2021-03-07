@@ -9,4 +9,4 @@ for (let i = "*"; i <= n; i++) {
     console.log(i);
 }
 
-// brak pomysłów 
+// brak pomysłów
