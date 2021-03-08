@@ -3,12 +3,14 @@ const n = 5;
 /**
  * Write your code below!
  */
-for (let i = "*"; i <= n; i++) {
-    for (let j = i; j <= n; j++) {
-        console.log(i + j);
-    }
+
+for (let i = 1; i <= n; i = i + 1) {
+    for (let j = 1; j < n; j++) {
+        console.log(i + " " + "*");
+}
 }
 
 
 
-// brak pomysłów na realizację zadan
+
+
