@@ -8,12 +8,8 @@ const numbers = [
  * Write your code below!
  */
 
-let push = numbers;
-for (let i = push[0][1][2]; i < push.length; i++);
-
-  push = push + " ";
-{
-  console.log(push);
+for (let i = 0; i < numbers.length; i++) {
+  for (let j = 0; j < numbers[i].length; j++) {
+    console.log(numbers[i][j]);
+  }
 }
-
-// Nie potrafię rozwiązać tego zadania, a materiały pomocnicze są niewystarczające.
