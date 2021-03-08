@@ -5,9 +5,14 @@ const rows = 5;
 /**
  * Write your code below!
  */
+let count = 1;
+for (let i = 0; i < rows; i++) {
+    numbers[i] = [];
+    for (let j = 0; j < columns; j++) {
+        numbers[i][j] = count;
 
-for (let i = 1; i <= columns.length; i++) {
-    for (let j = 1; j <= rows.length; j++) {
-        console.log(numbers[i][j]);
+        count++;
     }
 }
+
+console.log(numbers)
