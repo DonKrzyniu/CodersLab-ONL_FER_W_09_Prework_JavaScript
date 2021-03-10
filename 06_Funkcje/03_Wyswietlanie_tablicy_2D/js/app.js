@@ -7,16 +7,14 @@ const users = [["Jaydn Humphries", "Ayda Orozco"], ["Sanjeev Wilkinson", "Jorge 
 let array = users;
 
 function print2DArray(array) {
-    for (let i = 0; i < array.length; i++) {
-        for (let j = 0; j < array[i].length; j++) {
+    for (let i = 0; i < array.length; i = i + 1) {
+        for (let j = 0; j < array[i].length; j = j + 1) {
             console.log(array[i][j]);
         }
     }
+}
 
-console.log(array);
 print2DArray(array);
-
-//Na chwilę obecną nic więcej nie wymyślę.
 
 /**
  * Do NOT modify code below!
