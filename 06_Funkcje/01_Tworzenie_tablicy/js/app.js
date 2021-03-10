@@ -1,15 +1,12 @@
 const rows = 5;
 
-const rowsArray = [];
-
 function createArray(rows){
-    for (let i = 1; i < rows; i++) {
-        rowsArray[1] = [];
-        console.log(rowsArray[i]);
+    for (let i = 1; i <= rows; i++) {
+        console.log(i);
     }
 }
 
-console.log(rowsArray[1]);
 createArray(rows);
 
-//Zadanie mnie pokonało ;-(
+//W końcu pokonałem zadanie :-)
+//Mam nadzieję, że o takie rozwiązanie chodziło.
