@@ -4,12 +4,13 @@ const n = 5;
  * Write your code below!
  */
 
-let stars = "*";
+const stars = [["*"], ["**"], ["***"], ["****"], ["*****"],];
 
-for (let i = 0; i < n; i++) {
-    for (let j = i; j < n; j++) {
+for (let i = 0; i < stars.length; i++) {
+    for (let j = 0; j < stars[i].length; j++) {
         console.log(stars[i][j]);
     }
 }
 
-// Nie mam pojęcia jak inaczej można rozwiązać to zadanie.
+// Wiem, że zadanie jest zrobione nie tak jak pisze w instrukcji jego wykonania.
+//Jednakże inaczej go nie potrafię rozwiązać.
